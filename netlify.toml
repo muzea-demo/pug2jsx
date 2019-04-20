@@ -1,0 +1,3 @@
+[build]
+  command = "yarn install --production=false && yarn parcel build index.html"
+  publish = "dist"
